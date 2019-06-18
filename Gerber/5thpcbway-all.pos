@@ -1,0 +1,12 @@
+### Module positions - created on jue 23 may 2019 23:16:18 CEST ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val           Package                                             PosX       PosY       Rot  Side
+BT1       Battery_Cell  BatteryHolder_Keystone_3034_1x20mm_MODIFICADA  -186.6000   -78.6000  270.0000  bottom
+R1        470           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    -177.2000   -61.0000  180.0000  bottom
+R2        470           R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    -195.8000   -61.0000    0.0000  bottom
+SW1       SW_Push_SPDT  SW_SPDT_PCM12                                  -170.4000   -68.0000   90.0000  bottom
+D1        LED           LED_RGB_0807_2012Metric_HandSolder              167.4000   -91.0000    0.0000  top
+D2        LED           LED_RGB_0807_2012Metric_HandSolder              205.8000   -91.0000  180.0000  top
+## End

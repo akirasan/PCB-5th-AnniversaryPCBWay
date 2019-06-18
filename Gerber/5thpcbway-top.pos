@@ -1,0 +1,8 @@
+### Module positions - created on jue 23 may 2019 22:49:23 CEST ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                  PosX       PosY       Rot  Side
+D1        LED       LED_RGB_0807_2012Metric_HandSolder   167.4000   -91.0000    0.0000  top
+D2        LED       LED_RGB_0807_2012Metric_HandSolder   205.8000   -91.0000  180.0000  top
+## End

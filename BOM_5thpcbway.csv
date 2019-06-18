@@ -1,0 +1,6 @@
+Id,Identificador,Empaquetado,Cantidad,Identificación,Suministrador y ref
+1,BT1,BatteryHolder_Keystone_3034_1x20mm,1,Battery_Cell,https://es.aliexpress.com/item/5pcs-SMD-Tab-20mm-CR2032-2032-Battery-Button-Cell-Holder-Coin-Cell-Retainer-Battery-Holder-surface/32733848518.html
+2,SW1,SW_SPDT_PCM12,1,SW_Push_SPDT,https://es.aliexpress.com/item/50-unids-mini-7-Pasadores-encendido-apagado-1p2t-SPDT-msk-12c02-interruptor-SMD-interruptor-deslizante-para/32839604589.html
+3,"D2,D1",LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,LED RGB,https://es.aliexpress.com/item/1000pcs-0805-Yellow-SMD-LEDs-Super-Bright-LED-0805-diodes-2012-led-Light-Emitting-Diode-580/32816748212.html
+4,"R2,R1",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,1 Ohm,https://es.aliexpress.com/store/product/100pcs-0805-5-1-8W-SMD-chip-resistor-0R-10M-0-1R-10R-100R-220R-330R/1361740_32865947306.html
+5,,5thpcbway,1,PCB Design,PCB Design

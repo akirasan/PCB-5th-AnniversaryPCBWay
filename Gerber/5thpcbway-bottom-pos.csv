@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"BT1","Battery_Cell","BatteryHolder_Keystone_3034_1x20mm_MODIFICADA",186.600000,-78.600000,270.000000,bottom
+"R1","470","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",177.200000,-61.000000,180.000000,bottom
+"R2","470","R_0805_2012Metric_Pad1.15x1.40mm_HandSolder",195.800000,-61.000000,0.000000,bottom
+"SW1","SW_Push_SPDT","SW_SPDT_PCM12",170.400000,-68.000000,90.000000,bottom

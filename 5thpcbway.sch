@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+LIBS:5thpcbway-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5CBCF082
+P 2750 2150
+F 0 "BT1" H 2900 2250 50  0000 L CNN
+F 1 "Battery_Cell" H 2900 2200 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 2750 2210 50  0001 C CNN
+F 3 "~" V 2750 2210 50  0001 C CNN
+	1    2750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CBCF14A
+P 4150 2100
+F 0 "D1" H 4100 1800 50  0000 C CNN
+F 1 "LED" H 4100 1900 50  0000 C CNN
+F 2 "PCBWay:LED_RGB_0807_2012Metric_HandSolder" H 4150 2100 50  0001 C CNN
+F 3 "~" H 4150 2100 50  0001 C CNN
+	1    4150 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CBCF1A6
+P 4150 2500
+F 0 "D2" H 4100 2200 50  0000 C CNN
+F 1 "LED" H 4100 2300 50  0000 C CNN
+F 2 "PCBWay:LED_RGB_0807_2012Metric_HandSolder" H 4150 2500 50  0001 C CNN
+F 3 "~" H 4150 2500 50  0001 C CNN
+	1    4150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CBCF2D7
+P 3700 2100
+F 0 "R1" V 3450 2100 50  0000 C CNN
+F 1 "470" V 3550 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 2100 50  0001 C CNN
+F 3 "~" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CBCF32C
+P 3700 2500
+F 0 "R2" V 3950 2500 50  0000 C CNN
+F 1 "470" V 3850 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 2500 50  0001 C CNN
+F 3 "~" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_SPDT SW1
+U 1 1 5CBCF624
+P 2950 1600
+F 0 "SW1" H 2950 1900 50  0000 C CNN
+F 1 "SW_Push_SPDT" H 2950 1800 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 2950 1600 50  0001 C CNN
+F 3 "" H 2950 1600 50  0001 C CNN
+	1    2950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CBCF6AC
+P 3400 2900
+F 0 "#PWR0101" H 3400 2650 50  0001 C CNN
+F 1 "GND" H 3450 2700 50  0000 C CNN
+F 2 "" H 3400 2900 50  0001 C CNN
+F 3 "" H 3400 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3150 1700
+Wire Wire Line
+	2750 2250 2750 2700
+Wire Wire Line
+	2750 2700 3400 2700
+Wire Wire Line
+	4500 2700 4500 2500
+Wire Wire Line
+	4500 2100 4300 2100
+Wire Wire Line
+	4300 2500 4500 2500
+Connection ~ 4500 2500
+Wire Wire Line
+	4500 2500 4500 2100
+Wire Wire Line
+	4000 2500 3850 2500
+Wire Wire Line
+	3850 2100 4000 2100
+Wire Wire Line
+	3150 1500 3400 1500
+Wire Wire Line
+	3400 1500 3400 2100
+Wire Wire Line
+	3400 2100 3550 2100
+Wire Wire Line
+	3400 2100 3400 2500
+Wire Wire Line
+	3400 2500 3550 2500
+Connection ~ 3400 2100
+Wire Wire Line
+	3400 2900 3400 2700
+Connection ~ 3400 2700
+Wire Wire Line
+	3400 2700 4500 2700
+Wire Wire Line
+	2750 1600 2750 1950
+$EndSCHEMATC
